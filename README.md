@@ -32,7 +32,7 @@ Copy the `.env.example` file to `.env` and change it to suit your needs. At the 
 
 ## Running the Bot
 
-See above about `run.sh` or you can do `python src/main.py` by hand.
+See above about `run.sh` or you can just run `discord_summarizer` by hand.
 
 For it to actually *do* anything, of course, you'll need to invite the bot to whatever servers you want it on. I'll leave that in your capable hands.
 
