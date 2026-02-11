@@ -1,0 +1,15 @@
+[project]
+name = "discord-summarizer"
+version = "0.1.0"
+requires-python = ">=3.12"
+authors = [ { name = "InspectorCaracal" } ]
+dependencies = [
+    "discord.py",
+    "requests",
+    "python-dotenv",
+    "pyyaml",
+    "openai",
+]
+
+[project.scripts]
+discord_summarizer = "discord_summarizer.run:main"
